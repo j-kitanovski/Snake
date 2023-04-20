@@ -35,7 +35,7 @@ public:
 
 Snake::Snake(const int &startX, const int &startY, const int &startDir)
 {
-  body = {{startX, startY}};
+  body = {{startX, startY}, {startX - 1, startY}, {startX - 2, startY}, {startX - 3, startY}, {startX - 4, startY}};
   dir = startDir;
 
   gameOver = false;

@@ -34,7 +34,7 @@ int main()
         }
 
         // game
-        Game game = Game(0x57, 0x41, 0x53, 0x44, 254, ' ', 50);
+        Game game = Game(0x57, 0x41, 0x53, 0x44, 254, ' ', 25);
         // snake
         Snake snake = Snake(game.getCanvasSize() / 2, game.getCanvasSize() / 2, 3);
         // food manager
